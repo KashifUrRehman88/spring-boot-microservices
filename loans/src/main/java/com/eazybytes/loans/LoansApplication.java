@@ -15,6 +15,5 @@ public class LoansApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LoansApplication.class, args);
-		System.out.println("Testing");
 	}
 }
