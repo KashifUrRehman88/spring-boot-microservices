@@ -48,8 +48,15 @@
 	<build>
 		<plugins>
 			<plugin>
+				<!-- Below mentioned build tag is added , this pligin uses the build backs to  gerenerate the docker image without need of docker file 
+				in the project -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+						<name>eazybytes/${project.artifactId}</name>
+					</image>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
