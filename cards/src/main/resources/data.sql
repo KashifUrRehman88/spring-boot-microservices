@@ -20,5 +20,5 @@ INSERT INTO `cards` (`card_id`,`card_number`, `customer_id`, `card_type`, `total
  VALUES (2, '4565XXXX4656', 1, 'Credit', 10000, 500, 9500, CURDATE());
  
 INSERT INTO `cards` (`card_id`, `card_number`, `customer_id`, `card_type`, `total_limit`, `amount_used`, `available_amount`, `create_dt`)
- VALUES (3,'2359XXXX9346', 1, 'Credit', 20000, 4000, 16000, CURDATE());`,
+ VALUES (3,'2359XXXX9346', 1, 'Credit', 20000, 4000, 16000, CURDATE());
  
